@@ -50,58 +50,64 @@ This project builds a full machine learning pipeline to predict credit risk usin
 
 ## 📌 Inspiration
 
-> This project was heavily inspired by [Dr. Haulder](https://github.com/haulder)'s original credit risk analysis notebook, which laid the foundation for data structure and modeling approach.
+📌 Inspiration
+
+This project explores how machine learning can help assess credit risk and how Explainable AI can make model predictions easier to understand.
+
+The goal is to analyze customer-related information, predict potential credit risk, evaluate model performance, and identify the factors influencing predictions.
+
+Acknowledgment: This project was inspired by existing credit risk analysis work. Credit and acknowledgment should be given to the original authors whose work informed this project.
 
 ---
 
 ## 🚀 How to Run
 
-Follow these steps to set up and run the project locally.
+🚀 How to Run
 
-1. Clone the repository
+Follow these steps to run the project on your computer.
 
-Open a terminal and run:
+1. Download the repository
+
+Download the project files from this GitHub repository and extract them into a folder.
+
+Alternatively, clone the repository using Git:
 
 git clone https://github.com/prernaahire2378-del/credit-risk-ml-explainable.git
-
-Navigate into the project folder:
-
 cd credit-risk-ml-explainable
 
 2. Create a virtual environment
 
-Create a virtual environment using Python:
-
 python -m venv venv
 
-Activate it on Windows:
+On Windows, activate it using:
 
 venv\Scripts\activate
 
-3. Install the required libraries
+3. Install dependencies
 
-Install the libraries needed to run the notebook.
-
-If the repository contains a "requirements.txt" file, run:
-
-pip install -r requirements.txt
-
-If no requirements file exists, install the dependencies specified in the notebook.
-
-4. Launch Jupyter Notebook
-
-Run:
+Install Jupyter Notebook:
 
 pip install notebook
+
+Install the other Python libraries required by the project. Check the notebook for the exact dependencies.
+
+4. Open Jupyter Notebook
+
 jupyter notebook
 
 Open "credit-risk-analysis.ipynb" in your browser.
 
 5. Run the notebook
 
-1. Make sure "training-data.csv" is in the expected location.
+1. Confirm that "training-data.csv" is available in the expected location.
 2. Select the appropriate Python kernel.
-3. Run the notebook cells from top to bottom.
-4. Review the model evaluation results and explainability outputs.
+3. Run the notebook cells in order.
+4. Review the model evaluation and explainability results.
 
-Note: The exact dependencies and execution steps should be verified against the notebook before publishing this guide.
+Note: The required libraries and execution steps should be verified by running the notebook.
+
+
+
+
+
+
