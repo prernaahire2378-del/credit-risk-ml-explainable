@@ -54,14 +54,54 @@ This project builds a full machine learning pipeline to predict credit risk usin
 
 ---
 
-## 🧪 How to Run
+## 🚀 How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/jackdoesjava/credit-risk-prediction-ml.git
-   cd credit-risk-prediction-ml
+Follow these steps to set up and run the project locally.
 
-2. Create a venv and install dependencies
+1. Clone the repository
 
-3. Open the notebook
+Open a terminal and run:
 
+git clone https://github.com/prernaahire2378-del/credit-risk-ml-explainable.git
+
+Navigate into the project folder:
+
+cd credit-risk-ml-explainable
+
+2. Create a virtual environment
+
+Create a virtual environment using Python:
+
+python -m venv venv
+
+Activate it on Windows:
+
+venv\Scripts\activate
+
+3. Install the required libraries
+
+Install the libraries needed to run the notebook.
+
+If the repository contains a "requirements.txt" file, run:
+
+pip install -r requirements.txt
+
+If no requirements file exists, install the dependencies specified in the notebook.
+
+4. Launch Jupyter Notebook
+
+Run:
+
+pip install notebook
+jupyter notebook
+
+Open "credit-risk-analysis.ipynb" in your browser.
+
+5. Run the notebook
+
+1. Make sure "training-data.csv" is in the expected location.
+2. Select the appropriate Python kernel.
+3. Run the notebook cells from top to bottom.
+4. Review the model evaluation results and explainability outputs.
+
+Note: The exact dependencies and execution steps should be verified against the notebook before publishing this guide.
