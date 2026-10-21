@@ -50,8 +50,6 @@ This project builds a full machine learning pipeline to predict credit risk usin
 
 ## 📌 Inspiration
 
-📌 Inspiration
-
 This project explores how machine learning can help assess credit risk and how Explainable AI can make model predictions easier to understand.
 
 The goal is to analyze customer-related information, predict potential credit risk, evaluate model performance, and identify the factors influencing predictions.
@@ -61,8 +59,6 @@ Acknowledgment: This project was inspired by existing credit risk analysis work.
 ---
 
 ## 🚀 How to Run
-
-🚀 How to Run
 
 Follow these steps to run the project on your computer.
 
