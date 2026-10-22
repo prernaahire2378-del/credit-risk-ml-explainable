@@ -39,11 +39,12 @@ The project uses "training-data.csv", a cleaned, structured dataset for credit r
 
 The documented input features include:
 
-**Feature       | Description** 
-"Age"           | Customer's age
-"Income"        | Customer's income
-"Married/Single"| Marital status category
-"Profession"    | Customer's profession
+ **Feature        | Description** 
+  
+- "Age"           | Customer's age
+- "Income"        | Customer's income
+- "Married/Single"| Marital status category
+-"Profession"    | Customer's profession
 
 **Target variable**: "Risk_Flag"
 
@@ -54,15 +55,16 @@ The target labels represent the dataset's defined classification categories. The
 
 ## Technology Stack
 
-**Technology    | Purpose**  
-Python          | Data processing and machine learning
-Pandas          | Data manipulation and analysis
-NumPy           | Numerical operations
-scikit-learn    | Preprocessing, model training, and evaluation
-Random Forest   | Classification model
-SHAP            | Model explainability
-Matplotlib      | Data visualization
-Jupyter Notebook| Interactive analysis and experimentation
+**Technology      | Purpose**  
+
+- Python          | Data processing and machine learning
+- Pandas          | Data manipulation and analysis
+- NumPy           | Numerical operations
+- scikit-learn    | Preprocessing, model training, and evaluation
+- Random Forest   | Classification model
+- SHAP            | Model explainability
+- Matplotlib      | Data visualization
+- Jupyter Notebook| Interactive analysis and experimentation
 
 ## Machine Learning Approach
 
