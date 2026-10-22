@@ -68,7 +68,7 @@ The target labels represent the dataset's defined classification categories. The
 
 ## Machine Learning Approach
 
-**Data Preprocessing**
+### Data Preprocessing
 
 The project uses scikit-learn preprocessing components to handle different feature types.
 
@@ -79,13 +79,13 @@ The project uses scikit-learn preprocessing components to handle different featu
 
 Keeping preprocessing steps together with the estimator helps maintain a reproducible modeling process.
 
-**Classification Model**
+### Classification Model
 
 A **Random Forest Classifier** is used to predict the target risk category.
 
 Random Forest combines predictions from multiple decision trees. It can model nonlinear relationships and interactions between features, making it a useful baseline for structured tabular classification tasks.
 
-**Model Evaluation**
+### Model Evaluation
 
 The notebook includes several evaluation and diagnostic techniques:
 
@@ -128,39 +128,39 @@ Follow these steps to run the project locally.
 
 1. **Clone the Repository**
 
-git clone https://github.com/prernaahire2378-del/credit-risk-ml-explainable.git
-cd credit-risk-ml-explainable
+       git clone https://github.com/prernaahire2378-del/credit-risk-ml-explainable.git
+       cd credit-risk-ml-explainable
 
 2. **Create a Virtual Environment**
 
-python -m venv venv
+       python -m venv venv
 
-Activate it on Windows:
+       Activate it on Windows:
 
-venv\Scripts\activate
+       venv\Scripts\activate
 
 3. **Install the Required Libraries**
 
-Install the main libraries used by the project:
+       Install the main libraries used by the project:
 
-python -m pip install pandas numpy scikit-learn matplotlib shap jupyter
+       python -m pip install pandas numpy scikit-learn matplotlib shap jupyter
 
-If the notebook uses additional libraries, install those as well.
+       If the notebook uses additional libraries, install those as well.
 
 4. **Launch Jupyter Notebook**
 
-jupyter notebook
+       jupyter notebook
 
-Open "credit-risk-analysis.ipynb" in your browser.
+       Open "credit-risk-analysis.ipynb" in your browser.
 
 5. **Run the Analysis**
 
-1. Select the appropriate Python kernel.
-2. Confirm that "training-data.csv" is accessible from the notebook's working directory.
-3. Run the cells in order.
-4. Review the preprocessing steps, model evaluation results, plots, and SHAP explanations.
+       1. Select the appropriate Python kernel.
+       2. Confirm that "training-data.csv" is accessible from the notebook's working directory.
+       3. Run the cells in order.
+       4. Review the preprocessing steps, model evaluation results, plots, and SHAP explanations.
 
-For consistent results, use the same dataset and preprocessing configuration as the notebook.
+       For consistent results, use the same dataset and preprocessing configuration as the notebook.
 
 ## Results and Interpretation
 
