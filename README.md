@@ -164,11 +164,14 @@ Follow these steps to run the project locally.
 
 ## Results and Interpretation
 
+- **Exact-profile overlap:** 85.6% of hold-out rows had a feature profile also present in training.
+- **Grouped split (random_state=42):** ROC-AUC 0.511, accuracy 0.828, and high-risk recall 0.069.
+
 The notebook is designed to examine model performance through multiple evaluation methods and explore feature contributions using SHAP.
 
 The evaluation should consider more than overall accuracy. ROC-AUC, precision-recall behavior, the confusion matrix, and probability calibration provide complementary information about the classifier.
 
-**Note**: Verified numerical results should be added here after executing the notebook. No performance figures are reported in this README until they have been confirmed from the actual model output.
+
 
 ## Limitations and Future Improvements
 
